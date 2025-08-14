@@ -17,3 +17,23 @@ git clone https://github.com/username/repository.git
 ```
 
 📌 Example: You find a project on GitHub and want it on your computer. It’s like **downloading a folder**, but with Git history.
+
+
+## 📥 git add – Stage changes for commit
+
+**Use:** Tell Git which files to track and include in the next commit.
+
+```bash
+git add file.txt
+
+# OR add all changes(root directory)
+
+git add .
+
+# OR add all changes(root and other directory)
+
+git add --all
+```
+
+📌 Example: You edit `index.html` and want to save it in Git’s memory for commit.
+
