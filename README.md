@@ -37,3 +37,23 @@ git add --all
 
 📌 Example: You edit `index.html` and want to save it in Git’s memory for commit.
 
+## 📦 git commit – Save staged changes
+
+**Use:** Save a snapshot of your changes in the repository.
+
+```bash
+git commit -m "Added homepage content"
+```
+
+📌 Example: You finished adding homepage text and now commit it with a message.
+
+
+## 🚀 git push – Upload commits to remote
+
+**Use:** Send your commits from local to GitHub.
+
+```bash
+git push origin main
+```
+
+📌 Example: After committing, run `git push` to update GitHub with your changes.
