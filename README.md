@@ -57,3 +57,96 @@ git push origin main
 ```
 
 📌 Example: After committing, run `git push` to update GitHub with your changes.
+
+
+## 🔄 git pull – Fetch & merge from remote
+
+**Use:** Get the latest changes from GitHub and merge them into your local branch.
+
+```bash
+git pull origin main
+```
+
+📌 Example: Before starting work, run `git pull` to get the latest changes from your team.
+
+
+## 🌿 git branch – Manage branches
+
+**Use:** Create, list, or delete branches.
+
+```bash
+# List all branches
+git branch
+
+# Create new branch
+git branch new-feature
+
+# Delete branch
+git branch -d old-feature
+```
+
+📌 Example: You create `new-feature` branch to work without affecting main.
+
+
+## 🔀 git checkout – Switch branches or restore files
+
+**Use:** Move between branches or restore files.
+
+```bash
+# Switch to a branch
+git checkout new-feature
+
+# Create and switch to new branch
+git checkout -b new-feature
+```
+
+📌 Example: You switch to `new-feature` branch to continue your work.
+
+
+## 🤝 git merge – Merge branches
+
+**Use:** Combine changes from another branch into the current one.
+
+```bash
+git checkout main
+git merge new-feature
+```
+
+📌 Example: After completing the `new-feature`, merge it into `main` with these commands.
+
+
+## 🗂 git stash – Save work for later
+
+**Use:** Temporarily store changes without committing.
+
+```bash
+# Stash changes
+git stash
+
+# Reapply stashed changes
+git stash pop
+```
+
+📌 Example: You’re in the middle of work but need to switch branches — stash it first.
+
+
+## 📋 git status – Check repository status
+
+**Use:** See what’s changed, staged, or untracked.
+
+```bash
+git status
+```
+
+📌 Example: Before committing, check what files are ready.
+
+
+## 📜 git log – View commit history
+
+**Use:** Show a list of past commits.
+
+```bash
+git log
+```
+
+📌 Example: See who made changes and when.
