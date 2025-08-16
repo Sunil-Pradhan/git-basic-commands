@@ -233,3 +233,50 @@ git rebase main
 ```
 
 📌 Example: Use rebase to keep a clean linear history when updating your `new-feature` branch.
+
+
+## 💡 Easy Practice Flow
+
+Here’s a simple **practice scenario** using all commands:
+
+
+```bash
+# 1. Clone a test repo
+git clone https://github.com/username/my-git-practice.git
+cd my-git-practice
+
+# 2. Create & switch to a new branch
+git branch new-feature
+git checkout new-feature
+
+# 3. Add changes
+echo "Hello Git!" > hello.txt
+git add hello.txt
+git commit -m "Added hello.txt"
+
+# 4. Push branch to GitHub
+git push origin new-feature
+
+
+# 5. Merge branch into main
+git checkout main
+git pull origin main
+git merge new-feature
+
+# 6. Stash changes example
+echo "Work in progress" > temp.txt
+git stash
+git stash pop
+
+# 7. View logs, diffs
+git log
+git diff
+
+# 8. Rebase example
+git checkout new-feature
+git rebase main
+```
+
+## 🎯 Final Tip
+
+Practice these commands daily with a dummy repo. Once you get used to them, Git will feel like magic.
