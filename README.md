@@ -150,3 +150,86 @@ git log
 ```
 
 📌 Example: See who made changes and when.
+
+
+## 🕵️ git diff – See changes
+
+**Use:** Compare changes between commits or working directory.
+
+```bash
+# See unstaged changes
+git diff
+
+# See staged changes
+git diff --cached
+```
+
+📌 Example: Check what’s changed before committing.
+
+
+**Recommended Visual Diff Tools:**
+
+
+<table>
+  <tr>
+    <th>Tool</th>
+    <th>Windows</th>
+    <th>Linux</th>
+    <th>Mac</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td><strong>Meld</strong></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td><a href="https://meldmerge.org/">Link</a></td>
+  </tr>
+  <tr>
+    <td><strong>Beyond Compare</strong></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td><a href="https://www.scootersoftware.com/home">Link</a></td>
+  </tr>
+	<tr>
+    <td><strong>DiffMerge</strong></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td><a href="https://www.sourcegear.com/diffmerge/">Link</a></td>
+  </tr>
+	<tr>
+    <td><strong>Diffuse</strong></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>❌</td>
+    <td><a href="https://diffuse.sourceforge.net/index.html">Link</a></td>
+  </tr>
+	<tr>
+    <td><strong>Kaleidoscope</strong></td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✔️</td>
+    <td><a href="https://kaleidoscope.app/">Link</a></td>
+  </tr>
+	<tr>
+    <td><strong>SemanticDiff</strong></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td><a href="https://semanticdiff.com/">Link</a></td>
+  </tr>
+</table>
+
+
+## 📐 git rebase – Reapply commits on top of another branch
+
+**Use:** Alternative to merge for integrating changes.
+
+```bash
+git checkout new-feature
+git rebase main
+```
+
+📌 Example: Use rebase to keep a clean linear history when updating your `new-feature` branch.
