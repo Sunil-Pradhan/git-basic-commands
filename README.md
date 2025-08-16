@@ -235,7 +235,7 @@ git rebase main
 📌 Example: Use rebase to keep a clean linear history when updating your `new-feature` branch.
 
 
-## 💡 Easy Practice Flow
+## 💡 Easy practice flow
 
 Here’s a simple **practice scenario** using all commands:
 
@@ -277,6 +277,6 @@ git checkout new-feature
 git rebase main
 ```
 
-## 🎯 Final Tip
+## 🎯 Final tip
 
 Practice these commands daily with a dummy repo. Once you get used to them, Git will feel like magic.
